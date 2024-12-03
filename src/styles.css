@@ -1,16 +1,16 @@
 body{
+    
     font-family: "parkinsans";
     text-align: left;
     color:aqua;
     background-color: black;
     border:1px solid antiquewhite;
     border-radius: 8px;
-    margin:50px;
-    padding:80px ;
+    
 
 }
 main{
-    max-width: 1000px;
+    max-width: 1200px;
     text-align: left;
     margin: 40px auto;
     border:1px solid antiquewhite;
@@ -47,6 +47,30 @@ h4{
   border: var(--border);
   box-shadow: var(--box-shadow);
 }
+
+@media(max-width: 950px){
+body{
+    border:none;
+}
+    main{
+        max-width: 900px;
+        margin:15px;
+       
+        
+    }
+    h1{
+        font-size: 30px;
+    }
+    
+    h2{
+        font-size:20px ;
+    }
+    .col-sm-3{
+        margin:auto;
+        max-width: 80%;
+    }
+}
+
 
 
 
