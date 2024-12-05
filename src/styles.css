@@ -56,6 +56,27 @@ a{
  .d-flex{
     justify-content: space-around;
  }
+ .images-container{
+    max-width: 1200px;
+ }
+
+ .grid{
+    display: grid;
+    grid-gap: 10px;   
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+}
+.gallery{    
+   max-width:220px;
+   padding: 5px;  
+   margin-top:15px; 
+   border: 1px solid white;
+   border-radius: 8px;
+       
+}
+footer{
+    margin-top: 50px;
+    
+}
 
 
 @media(max-width: 960px){
@@ -94,6 +115,9 @@ body{
         .col-sm-3{
         margin:auto;
         max-width: 80%;
+        }
+        .grid{
+            grid-template-columns: 1fr;
         }
         
 }
