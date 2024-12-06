@@ -81,13 +81,12 @@ footer{
 }
 
 
-@media(max-width: 768px){
-body{
-    border:none;
-    
-}
+@media(max-width: 1040px){
+    body{
+        border:none;    
+    }
     main{
-        max-width: 900px;
+        width:95%;
         margin:10px;   
         text-align: center;  
     }
@@ -119,6 +118,7 @@ body{
         max-width: 80%;
         }
         .grid{
+            
             grid-template-columns: 1fr;
         }
         
