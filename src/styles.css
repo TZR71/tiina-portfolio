@@ -1,121 +1,111 @@
-:root{
-   --border:2px solid rgb(90, 89, 89);
+:root {
+  --border: 2px solid rgb(90, 89, 89);
 }
-body{    
-    font-family: "parkinsans";
-    text-align: left;
-    color:rgb(90, 89, 89);
-    background: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
-    border:var(--border);
-    border-radius: 8px;
-    margin:5px;    
+body {
+  font-family: "parkinsans";
+  text-align: left;
+  color: rgb(90, 89, 89);
+  background: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  border: var(--border);
+  border-radius: 8px;
+  margin: 5px;
 }
-main{
-    max-width: 1200px;
-    text-align: left;
-    margin: 40px auto;
-    border:var(--border);
-    border-radius: 8px;
-    padding:40px;
+main {
+  max-width: 1200px;
+  text-align: left;
+  margin: 40px auto;
+  border: var(--border);
+  border-radius: 8px;
+  padding: 40px;
 }
-.link-container{
-    margin-top: 30px;
+.link-container {
+  margin-top: 30px;
 }
-.social-links{
-    margin-left: 500px;  
+.social-links {
+  margin-left: 500px;
 }
-.d-flex{
-    justify-content: space-around;
- }
- h4{
-    font-size: 20px;
+.d-flex {
+  justify-content: space-around;
 }
-.social-links a{
+h4 {
+  font-size: 20px;
+}
+.social-links a {
   text-decoration: none;
-  margin: 0px 15px;    
-  font-size: 50px;    
- }
-a{
-   text-decoration: none; 
- }
-h1{
-    font-size:70px;
-    margin: 80px auto;
-    text-align: center;    
+  margin: 0px 15px;
+  font-size: 50px;
 }
-h2{   
-    font-size:45px;
+a {
+  text-decoration: none;
 }
-p{
-    font-size: 22px;
+h1 {
+  font-size: 70px;
+  margin: 80px auto;
+  text-align: center;
 }
-.img-fluid{
-    border: var(--border);   
- }
-.images-container{
-    max-width: 1200px;
-    margin-top: 35px;
- }
- .grid{
-    display: grid;
-    grid-gap: 10px;   
-    grid-template-columns: 1fr 1fr 1fr 1fr; 
+h2 {
+  font-size: 45px;
 }
-.gallery{    
-   max-width:220px;
-   padding: 5px;  
-   margin-top:15px; 
-   border: var(--border);
-   border-radius: 8px;       
+p {
+  font-size: 22px;
 }
-footer{
+.img-fluid {
+  border: var(--border);
+}
+.images-container {
+  max-width: 1200px;
+  margin-top: 35px;
+}
+.grid {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.gallery {
+  max-width: 220px;
+  padding: 5px;
+  margin-top: 15px;
+  border: var(--border);
+  border-radius: 8px;
+}
+footer {
+  text-align: center;
+  margin: 50px;
+}
+
+@media (max-width: 1040px) {
+  body {
+    border: none;
+  }
+  main {
+    width: 95%;
+    margin: 10px;
     text-align: center;
-    margin: 50px;    
+  }
+  h1 {
+    font-size: 60px;
+    margin-bottom: 30px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  h4 {
+    font-size: 15px;
+    margin-right: 10px;
+  }
+  .social-links {
+    margin-left: 2px;
+    padding: 2px;
+  }
+  .social-links a {
+    margin: 0px 8px;
+    font-size: 30px;
+  }
+  .col-sm-3 {
+    margin: auto;
+    max-width: 80%;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
 }
-
-@media(max-width: 1040px){
-    body{
-        border:none;    
-    }
-    main{
-        width:95%;
-        margin:10px;   
-        text-align: center;  
-    }
-    h1{
-        font-size: 60px;
-        margin-bottom: 30px;
-    }    
-    h2{
-        font-size:18px ;
-    }
-    h4{
-        font-size: 15px;
-        margin-right: 10px;
-    }
-    .social-links{
-        margin-left: 2px;
-        padding: 2px;
-    
-    }
-    .social-links a{
-        margin: 0px 8px;    
-        font-size: 30px;
-        
-    }
-    .col-sm-3{
-        margin:auto;
-        max-width: 80%;
-    }
-    .grid{
-            
-        grid-template-columns: 1fr;
-    }
-        
-}
-
-
-
-
-
-
