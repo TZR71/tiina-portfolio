@@ -1,11 +1,11 @@
 :root{
-   --border:2px solid #0234C4;
+   --border:2px solid rgb(90, 89, 89);
 }
 body{    
     font-family: "parkinsans";
     text-align: left;
-    color:aqua;
-    background-color:grey;
+    color:rgb(90, 89, 89);
+    background: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
     border:var(--border);
     border-radius: 8px;
     margin:5px;    
